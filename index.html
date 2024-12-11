@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="icon" href="/media/lotus-flower.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header  id="header">
+        <nav>
+            <div class="left"><b>Ambuj.</b></div>
+        <div class="right">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <p>Data Scientist</p>
+                Hi, I'm <span class="name"> Ambuj Singh </span>
+                <div>I am passionate about</div>
+                
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+            <img src="/media/data-science.png" alt="background">
+            </div>
+        </section>
+    </main>
+
+    <!-- ------------About Me---------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/media/whiteshirt-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Aiming to start my Data Science career in a dynamic company, leveraging my
+                        about driving data-driven strategies, enhancing decision-making processes, and
+                        contributing to overall business success through innovative data solutions.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab(event,'skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab(event,'experience')">Projects</p>
+                            <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>Python, R, SQL</li>
+                                <li><span>Frameworks</span><br>Hadoop, MapReduce, Spark, TensorFlow, Keras</li>
+                                <li><span>Tools and Platforms</span><br>Tableau, MongoDB, Cassandra, Hive, GitHub, DBMS, Big Data Technologies</li>
+                                <li><span>Libraries</span><br>NumPy, Scikit-Learn, Pandas</li>
+                                <li><span>Techniques and Concepts</span><br>Advanced Analytics, Data Collection, Data Visualization, Machine Learning, Deep Learning, Gen AI</li>
+                            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Aug - 2024</span><br>Image Analysis for Tuberculosis Detection</li>
+                                <li><span>2017</span><br>Early Dementia Detector</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Mar - Aug 2024</span><br>PG-Diploma in Big Data Analytics from CDAC Noida</li>
+                                <li><span>2017</span><br>B.E in Electronics and Telecommunication from KGCE Karjat</li>
+                            </ul>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<!-- -----------------------Projects--------------------- -->
+
+<div id="project">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="/media/deeplearning_cnn.webp" alt="project1">
+            <div class="layer">
+                <h3><b>Tuberculosis Image Analysis</b></h3>
+                <p> Developed a Deep Learning CNN Xception model to Analyse X-Ray images 
+                    of lungs and detect it, show it using Grad-Cam image processing.</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/media/brainwaves.webp" alt="">
+            <div class="layer">
+                <h3><b>Early Dementia Detector</b></h3>
+                <p> Developed an Early Dementia Detector using
+                    headgear to analyze brain waves and process data
+                    through C++ programs.</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+</div>
+
+<!-- ------------------------Contacts---------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>info@portfolio.com</p>
+                <p><i class="fa-regular fa-address-book"></i>333333333</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="/media/Ambuj Singh Data Science CV.pdf" download class="btn btn2">My CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"><b>Submit</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright <i class="fa-regular fa-copyright"></i> 2024 AmbuSigh. All Rights Reserved </p>
+    </div>
+
+    <!-- -------------------Back to Top------------------- -->
+
+     <div id="backToTop" class="back-to-top">
+        <i class="fa fa-arrow-up"></i> <!-- Font Awesome icon -->
+    </div>
+
+</div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
