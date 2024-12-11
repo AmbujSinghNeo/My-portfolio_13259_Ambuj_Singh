@@ -18,7 +18,7 @@ body{
 @font-face {
     font-family: 'CustomFont';
     /*src: url("/media/Poppins/Poppins-Regular.ttf") format('truetype');*/
-        src: url("./Jaro/Jaro-Regular-VariableFont_opsz.ttf") format('truetype');
+        src: url("../Jaro/Jaro-Regular-VariableFont_opsz.ttf") format('truetype');
 
     font-weight: normal;
     font-style: normal;
