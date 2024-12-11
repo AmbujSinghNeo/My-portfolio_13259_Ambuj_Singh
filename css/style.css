@@ -9,8 +9,7 @@ html{
 }
 body{
     background: linear-gradient(135deg, #010203, #1d1f21);  /* Dark blue-gray gradient */
-    
-
+        font-family: 'CustomFont',sans-serif;
     color: #f0f0f0;  /* Light text color */
 
     /*background-image: url(../media/1920-abstract-futuristic-connecting-dots-and-lines-on-dark-blue-background-digital-technology-concept-big-data-visualization-digital-dynamic-wave-of-particles-3d-illustration.jpg);*/
@@ -18,7 +17,9 @@ body{
 }
 @font-face {
     font-family: 'CustomFont';
-    src: url("/media/Poppins/Poppins-Regular.ttf") format('truetype');
+    /*src: url("/media/Poppins/Poppins-Regular.ttf") format('truetype');*/
+        src: url("./Jaro/Jaro-Regular-VariableFont_opsz.ttf") format('truetype');
+
     font-weight: normal;
     font-style: normal;
 }
